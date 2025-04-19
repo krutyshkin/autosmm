@@ -88,6 +88,47 @@
             margin: 0;
             font-size: 1rem;
         }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            .container {
+                max-width: 100%;
+                margin: 20px;
+                padding: 15px;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            .button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            header p {
+                font-size: 0.9rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            ul li {
+                font-size: 0.9rem;
+            }
+            .button {
+                padding: 8px 15px;
+                font-size: 0.8rem;
+            }
+        }
     </style>
 </head>
 <body>
