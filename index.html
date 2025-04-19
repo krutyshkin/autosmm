@@ -9,7 +9,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f4f8;
+            background-color: #eef2f7;
             color: #333;
         }
         header {
@@ -21,55 +21,66 @@
         }
         header h1 {
             margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 40px auto;
             background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
         }
         h2 {
             color: #4e54c8;
+            font-size: 1.8rem;
         }
         ul {
             list-style: none;
             padding: 0;
         }
         ul li {
-            background: #f0f4f8;
-            margin: 8px 0;
-            padding: 10px;
-            border-radius: 4px;
+            background: #eef2f7;
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 8px;
             border: 1px solid #d4dae1;
+            font-size: 1rem;
         }
         .button-container {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         .button {
+            display: inline-block;
             background-color: #4e54c8;
             color: white;
-            padding: 10px 20px;
+            padding: 15px 30px;
             text-decoration: none;
-            border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            font-size: 16px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-size: 1rem;
+            margin: 10px;
+            transition: transform 0.2s ease, background-color 0.3s ease;
         }
         .button:hover {
             background-color: #6c72f7;
+            transform: translateY(-3px);
         }
         footer {
             text-align: center;
             padding: 20px 0;
             background: #4e54c8;
             color: white;
-            margin-top: 20px;
+            margin-top: 40px;
             box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
         }
         footer p {
             margin: 0;
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -85,8 +96,8 @@
         <h2>Настройка</h2>
         <ul>
             <li>Введите <code>/autosmm</code> в боте после установки плагина.</li>
-            <li>Вставьте ссылку на API сайта в поле <strong>API URL</strong>, например: <code>https://site.com/api/v2/</code>.</li>
-            <li>Сгенерируйте ключ API и вставьте его в поле <strong>API KEY</strong>, например: <code>kwjehfefhbvwieoirepdklen354nfdlfk9fn4rf</code>.</li>
+            <li>Укажите ссылку на API сайта в поле <strong>API URL</strong>, например: <code>https://site.com/api/v2/</code>.</li>
+            <li>Сгенерируйте ключ API и добавьте его в поле <strong>API KEY</strong>, например: <code>kwjehfefhbvwieoirepdklen354nfdlfk9fn4rf</code>.</li>
         </ul>
 
         <h2>Настройка лотов</h2>
@@ -101,7 +112,8 @@
         <p>Для установки плагина требуется Python 3.11.</p>
 
         <div class="button-container">
-            <a class="button" href="https://github.com/krutyshkin/FunPayC-AutoSmm" target="_blank">Перейти к репозиторию</a>
+            <a class="button" href="https://github.com/krutyshkin/FunPayC-AutoSmm" target="_blank" rel="noopener noreferrer">Перейти к скачиванию</a>
+            <a class="button" href="https://soc-rocket.ru/?ref=267414" target="_blank" rel="noopener noreferrer">Лучшая панель для накрутки</a>
         </div>
     </div>
     <footer>
