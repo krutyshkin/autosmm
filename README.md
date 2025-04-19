@@ -1,5 +1,5 @@
 # FPC AutoSMM
-
+https://krutyshkin.github.io/autosmm-fpc/
 ![GitHub Visits](https://komarev.com/ghpvc/?username=autosmm&color=blue)
 
 FPC AutoSMM — это мощный плагин для автоматизации процессов накрутки соц.сетей  на платформе FunPay.
